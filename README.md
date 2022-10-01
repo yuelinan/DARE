@@ -1,4 +1,4 @@
-Official implementation of NeurIPS'2022 paper "DARE:Disentanglement-Augmented Rationale Extraction"
+Official implementation of NeurIPS'2022 paper "DARE:Disentanglement-Augmented Rationale Extraction".
 
 ## Mutual Information Estimation
 We provide toy simulations in ./Simulated Studies/club_nce.ipynb to show the estimation performance of CLUB_NCE and other MI estimators.
