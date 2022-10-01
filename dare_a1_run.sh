@@ -1,0 +1,14 @@
+python -m latent_rationale.beer.dare \
+    --model latent \
+    --aspect 1 \
+    --epochs 50 \
+    --lr 6e-05 \
+    --upper_bound 0.01 \
+    --batch_size 200 \
+    --train_path ./beer/reviews.aspect1.train.txt.gz \
+    --dev_path ./beer/reviews.aspect1.heldout.txt.gz \
+    --test_path ./beer/annotations.json \
+    --scheduler exponential \
+    --save_path ./dare_a1 \
+    --dependent-z \
+    --selection 0.07 --lasso 0.02
