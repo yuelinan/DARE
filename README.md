@@ -27,4 +27,11 @@ The backbone of our code is referenced from codes released by [HardKuma](https:/
 Thank you for their sharing !
 
 ## Citation
-Coming soon.
+```
+@inproceedings{yuedare,
+  title={DARE: Disentanglement-Augmented Rationale Extraction},
+  author={Yue, Linan and Liu, Qi and Du, Yichao and An, Yanqing and Wang, Li and Chen, Enhong},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2022}
+}
+```
